@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitCRM – Client List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h2>FitCRM</h2>
+    <div class="nav-links">
+      <a href="index.html">Add Client</a>
+      <a href="clients.html" class="active">Client List</a>
+    </div>
+  </nav>
+
+  <main class="list-section">
+    <h1>Client List</h1>
+    <input type="text" class="search-box" placeholder="🔍 Search by name..." />
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th><th>Email</th><th>Phone</th><th>Goal</th><th>Start Date</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ahmed Ali</td><td>ahmed@example.com</td><td>01000000000</td><td>Muscle Gain</td><td>2025-10-01</td>
+            <td>
+              <button class="btn-secondary">Edit</button>
+              <button class="btn-danger">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Sarah Mostafa</td><td>sarah@example.com</td><td>01112345678</td><td>Weight Loss</td><td>2025-09-22</td>
+            <td>
+              <button class="btn-secondary">Edit</button>
+              <button class="btn-danger">Delete</button>
+            </td>
+          </tr>
+          <!-- Add more sample rows -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 FitCRM | Designed for CSCE4502</p>
+  </footer>
+</body>
+</html>
