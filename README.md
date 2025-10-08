@@ -36,11 +36,4 @@ This project was developed as part of **CSCE4502 – Design of Web-based Systems
 | Styling | CSS3 (Flexbox & Grid) |
 | Deployment | GitHub Pages |
 
----
-
-##  Visuals
-
-### Example Preview
-Add screenshots of your web pages here (after adding images in your repo):
-
 ```markdown
