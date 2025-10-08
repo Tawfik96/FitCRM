@@ -1,4 +1,4 @@
-# 💪 FitCRM – Simple Client Manager for Fitness Professionals
+# 💪 FitCRM 
 
 ### Project Overview
 **FitCRM** is a lightweight, front-end-only web app designed for **fitness instructors, personal trainers, and gym owners** to easily manage client information and fitness goals.
