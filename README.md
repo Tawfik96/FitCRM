@@ -16,15 +16,15 @@ This project was developed as part of **CSCE4502 – Design of Web-based Systems
 - "Add Client" button (UI only – no backend functionality yet)
 
 ### Page 2 – Client List View
-- Displays 10 sample clients in a styled responsive table  
+- Displays some sample clients in a styled responsive table  
 - Search box to filter clients by name (UI only)  
 - “Edit” and “Delete” buttons (placeholders for now)  
 - Modern color palette and hover animations
 
 ###  Responsive Design
-- Built with **Flexbox** and **CSS Grid**
+- Built with **Flexbox** and **CSS Grid** in addition to Google Fonts and Fonts Awesome Library to add more engagment
 - Fully responsive on desktop, tablet, and mobile  
-- Consistent color scheme inspired by fitness brand aesthetics  
+- Consistent color scheme that contains fitness spirit  
 
 ---
 
