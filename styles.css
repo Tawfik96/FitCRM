@@ -173,15 +173,7 @@ tr:hover {
   font-size: 1em;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  background: #2b7a78;
-  color: white;
-  padding: 12px 0;
-  font-size: 0.9em;
-  margin-top: auto;
-}
+
 
 /* Responsive */
 @media (max-width: 700px) {
