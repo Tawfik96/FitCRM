@@ -8,44 +8,88 @@
 </head>
 <body>
   <nav class="navbar">
-    <h2>FitCRM</h2>
+    <h2><i class="fa-solid fa-dumbbell"></i> FitCRM</h2>
     <div class="nav-links">
-      <a href="index.html">Add Client</a>
-      <a href="clients.html" class="active">Client List</a>
+      <a href="index.html"><i class="fa-solid fa-user-plus"></i> Add Client</a>
+      <a href="clients.html" class="active"><i class="fa-solid fa-users"></i> Client List</a>
     </div>
   </nav>
 
   <main class="list-section">
-    <h1>Client List</h1>
+    <h1><i class="fa-solid fa-users"></i> Client List</h1>
     <input type="text" class="search-box" placeholder="🔍 Search by name..." />
 
     <div class="table-container">
       <table>
         <thead>
           <tr>
-            <th>Name</th><th>Email</th><th>Phone</th><th>Goal</th><th>Start Date</th><th>Actions</th>
+            <th><i class="fa-solid fa-user"></i> Name</th>
+            <th><i class="fa-solid fa-envelope"></i> Email</th>
+            <th><i class="fa-solid fa-phone"></i> Phone</th>
+            <th><i class="fa-solid fa-bullseye"></i> Goal</th>
+            <th><i class="fa-solid fa-calendar-day"></i> Start Date</th>
+            <th><i class="fa-solid fa-gear"></i> Actions</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Ahmed Ali</td><td>ahmed@example.com</td><td>01000000000</td><td>Muscle Gain</td><td>2025-10-01</td>
+            <td>Ahmed Ali</td>
+            <td>ahmed@example.com</td>
+            <td>01000000000</td>
+            <td>Muscle Gain</td>
+            <td>2025-10-01</td>
             <td>
-              <button class="btn-secondary">Edit</button>
-              <button class="btn-danger">Delete</button>
+              <button class="btn-secondary"><i class="fa-solid fa-pen"></i> Edit</button>
+              <button class="btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
             </td>
           </tr>
           <tr>
-            <td>Sarah Mostafa</td><td>sarah@example.com</td><td>01112345678</td><td>Weight Loss</td><td>2025-09-22</td>
+            <td>Sarah Mostafa</td>
+            <td>sarah@example.com</td>
+            <td>01112345678</td>
+            <td>Weight Loss</td>
+            <td>2025-09-22</td>
             <td>
-              <button class="btn-secondary">Edit</button>
-              <button class="btn-danger">Delete</button>
+              <button class="btn-secondary"><i class="fa-solid fa-pen"></i> Edit</button>
+              <button class="btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
             </td>
           </tr>
-          <!-- Add more sample rows -->
+                    <tr>
+            <td>Ali Osama</td>
+            <td>Ali@gmail.com</td>
+            <td>0113434678</td>
+            <td>Weight Loss</td>
+            <td>2025-03-21</td>
+            <td>
+              <button class="btn-secondary"><i class="fa-solid fa-pen"></i> Edit</button>
+              <button class="btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+            </td>
+          </tr>
+                    <tr>
+            <td>Farouk Nasser</td>
+            <td>Farouk@dsare.com</td>
+            <td>01123145678</td>
+            <td>Muscla Gain</td>
+            <td>2025-11-02</td>
+            <td>
+              <button class="btn-secondary"><i class="fa-solid fa-pen"></i> Edit</button>
+              <button class="btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+            </td>
+          </tr>
+                    <tr>
+            <td>Nawal Mostafa</td>
+            <td>Nawal@example.com</td>
+            <td>01212345678</td>
+            <td>Weight Loss</td>
+            <td>2025-10-22</td>
+            <td>
+              <button class="btn-secondary"><i class="fa-solid fa-pen"></i> Edit</button>
+              <button class="btn-danger"><i class="fa-solid fa-trash"></i> Delete</button>
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
   </main>
-
 </body>
 </html>
